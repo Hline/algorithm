@@ -3,6 +3,7 @@ Project List
 - Dynamic Programing
     - B12865: 백준 평범한 배낭 <https://www.acmicpc.net/problem/12865>
 - 알고리즘 교육
+:프로젝트 내에 문제와 입출력 예시 포함 
     - 입출력
         - M21040501_입력과출력
         - M21040502_어설픈모내기
@@ -16,7 +17,30 @@ Project List
         - M21040508_카드발급기
     - 슬라이딩 윈도우
         - M21040509_슬라이딩윈도우
-
-
+        - M21040510_예식장서빙
+        - M21040511_미확인신호
+    - 정렬
+        - M21040603_SortLibrary
+        - M21040604_회의실배정
+    - 정렬+Queue
+        - M21040605_PriorityQueue
+        - M21040606_UglyNumber
+        - M21040607_정중앙대학교
+        - M21040608_연쇄폭탄
+        - M21040609_프린터스케쥴링시스템
+    - 인접행렬 vs 인접리스트
+        - M21040701_사랑의스튜디오
+        - M21040702_SPY와조직도 
+    - BFS
+        - M21040703_폭탄투하
+        - M21040704_Bloom
+        - M21040705_좀비바이러스
+        - M21040706_친구만나러가는길
+        - M21040707_천지창조
+        - M21040708_안나와엘사M
+    - Binary Search
+        - M21040801_BinarySearch
+        - M21040802_Root계산기
+        - M21040803_연료게이지
 
 - 작성참고: [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601#file-how-to-write-by-markdown-md)

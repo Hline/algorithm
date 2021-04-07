@@ -1,0 +1,6 @@
+5
+push -10
+push 10
+add -100
+add -90
+pop 2
