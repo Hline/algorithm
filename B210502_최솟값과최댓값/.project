@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>B210502_최솟값과최댓값</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>백준 2357번 최솟값과 최댓값.url</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/2357%EB%B2%88-%20%EC%B5%9C%EC%86%9F%EA%B0%92%EA%B3%BC%20%EC%B5%9C%EB%8C%93%EA%B0%92.url</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
