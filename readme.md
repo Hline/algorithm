@@ -28,6 +28,7 @@ Project List
         - M21040607_정중앙대학교
         - M21040608_연쇄폭탄
         - M21040609_프린터스케쥴링시스템
+        - B21042901_중앙값구하기 <https://www.acmicpc.net/problem/2696>
     - 인접행렬 vs 인접리스트
         - M21040701_사랑의스튜디오
         - M21040702_SPY와조직도 
@@ -48,5 +49,11 @@ Project List
     	- M21040806_순환회로검사
     	- M21040807_동전던지기_UnionFind
     	- M21040901_알뜰기차여행
+	- Stack
+		- B21042902_탑 <https://www.acmicpc.net/problem/2493> <http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1082&sca=3020>
+    - 세그먼트 트리
+    	- B210502_최솟값과최댓값 <https://www.acmicpc.net/problem/2357>
+    	- B21050502_최솟값 <https://www.acmicpc.net/problem/10868>
+    	- B21050503_구간합구하기 <https://www.acmicpc.net/problem/2042>
 
 - 작성참고: [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601#file-how-to-write-by-markdown-md)
