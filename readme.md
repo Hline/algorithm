@@ -39,12 +39,13 @@ Project List
         - M21040706_친구만나러가는길
         - M21040707_천지창조
         - M21040708_안나와엘사M
+        - B21050601_플로이드 <https://www.acmicpc.net/problem/11404>
     - Binary Search
         - M21040801_BinarySearch
         - M21040802_Root계산기
         - M21040803_연료게이지
         - M21040804_머리맞대기
-    - Union-Find
+    - Union Find
     	- M21040805_인디언합창단
     	- M21040806_순환회로검사
     	- M21040807_동전던지기_UnionFind
