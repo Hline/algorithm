@@ -40,11 +40,13 @@ Project List
         - M21040707_천지창조
         - M21040708_안나와엘사M
         - B21050601_플로이드 <https://www.acmicpc.net/problem/11404>
+        - B21050602_최소스패닝트리 <https://www.acmicpc.net/problem/1197>
     - Binary Search
         - M21040801_BinarySearch
         - M21040802_Root계산기
         - M21040803_연료게이지
         - M21040804_머리맞대기
+        - B21050603_수찾기 <https://www.acmicpc.net/problem/1920>
     - Union Find
     	- M21040805_인디언합창단
     	- M21040806_순환회로검사
