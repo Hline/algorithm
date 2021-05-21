@@ -41,22 +41,23 @@ Project List
         - M21040708_안나와엘사M
         - B21050601_플로이드 <https://www.acmicpc.net/problem/11404>
         - B21050602_최소스패닝트리 <https://www.acmicpc.net/problem/1197>
+        - B21052101_파티 <https://www.acmicpc.net/problem/1238>
     - Binary Search
         - M21040801_BinarySearch
         - M21040802_Root계산기
         - M21040803_연료게이지
         - M21040804_머리맞대기
         - B21050603_수찾기 <https://www.acmicpc.net/problem/1920>
-    - Union Find
-    	- M21040805_인디언합창단
-    	- M21040806_순환회로검사
-    	- M21040807_동전던지기_UnionFind
-    	- M21040901_알뜰기차여행
+    - Union/Find
+        - M21040805_인디언합창단
+        - M21040806_순환회로검사
+        - M21040807_동전던지기_UnionFind
+        - M21040901_알뜰기차여행
 	- Stack
-		- B21042902_탑 <https://www.acmicpc.net/problem/2493> <http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1082&sca=3020>
+        - B21042902_탑 <https://www.acmicpc.net/problem/2493> <http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1082&sca=3020>
     - 세그먼트 트리
-    	- B210502_최솟값과최댓값 <https://www.acmicpc.net/problem/2357>
-    	- B21050502_최솟값 <https://www.acmicpc.net/problem/10868>
-    	- B21050503_구간합구하기 <https://www.acmicpc.net/problem/2042>
+        - B210502_최솟값과최댓값 <https://www.acmicpc.net/problem/2357>
+        - B21050502_최솟값 <https://www.acmicpc.net/problem/10868>
+        - B21050503_구간합구하기 <https://www.acmicpc.net/problem/2042>
 
 - 작성참고: [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601#file-how-to-write-by-markdown-md)
