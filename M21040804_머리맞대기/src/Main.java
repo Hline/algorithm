@@ -11,7 +11,7 @@ public class Main {
 	static StringTokenizer st;
 	static int[] user_sum;
 	static int[] user;
-	static int minIq = Integer.MAX_VALUE;
+	static int maxIq = 0;
 	static int n;
 	static int t;
 
@@ -33,7 +33,7 @@ public class Main {
 			else
 				user_sum[i] = user_sum[i - 1] + user[i];
 
-			minIq = (minIq > user[i]) ? user[i] : minIq; // 제일 작은 수
+			maxIq = (maxIq > user[i]) ? maxIq : user[i]; // 팀으로 사용할 수 있는 최소값=1인1팀일 때 최대값
 		}
 		// prifx 뒷부분
 		for (int i = n; i < n * 2; i++) {
@@ -46,8 +46,7 @@ public class Main {
 	}
 
 	private static int binarySearch() {
-		// TODO Auto-generated method stub
-		int left = minIq;				// Head Sum의 Max 값이 될 수 있는 최소
+		int left = maxIq;				// Head Sum의 Max 값이 될 수 있는 최소
 		int right = user_sum[n - 1];	// Head Sum의 Max 값이 될 수 있는 최대
 		int minHeadSum = 0;				// 문제에서 요구하는 "Head Sum의 MAX 값이 가장 작은 값"
 
@@ -67,23 +66,21 @@ public class Main {
 	}
 
 	private static int CalcTeam(int maxHeadSum) {
-		// TODO Auto-generated method stub
-		int teamCount = Integer.MAX_VALUE;
-
+		int minTeamCnt = Integer.MAX_VALUE;
 		for (int i = 0; i < n; i++) {
 			int start = i;
-			int cnt = 1;
+			int TeamCnt = 1;
 			for (int j = i; j < i + n; j++) {
+				// start~j까지의 구간 내 HeadSum이 maxHeadSum 보다 클 경우 j는 새로운 팀으로 구성
 				if (user_sum[j] - user_sum[start] + user[start] > maxHeadSum) {
 					start = j;
-					cnt++;
+					TeamCnt++;
 				}
 			}
-			if (teamCount > cnt)
-				teamCount = cnt;
+			minTeamCnt = (minTeamCnt < TeamCnt) ? minTeamCnt : TeamCnt;
 		}
 
-		return teamCount;
+		return minTeamCnt;
 	}
 
 }
