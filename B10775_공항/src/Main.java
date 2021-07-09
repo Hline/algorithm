@@ -20,7 +20,7 @@ public class Main {
 	 * 영구적으로 도킹하려 한다.
 	 * gi = 2 일 경우 1,2번 게이트 모두 가능
 	 * gi = 2 일 경우 1,2,3번 게이트 모두 가능
-	 * 작은 수는 공통이므로 큰 수부터 차례대로 게이트 사용다
+	 * 작은 수는 공통이므로 큰 수부터 차례대로 게이트 사용
 	 */
 	public static void main(String[] args) throws Exception {
 		br = new BufferedReader(new FileReader("in"));
