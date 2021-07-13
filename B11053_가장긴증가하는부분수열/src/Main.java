@@ -21,13 +21,19 @@ public class Main {
 		for (int n = 0; n < N; n++) {
 			num[n] = Integer.parseInt(st.nextToken());
 			int maxboard = 0;
+			// 이전에 입력받은 수들 중에서 현재수(num[n]) 보다 수는 작지만
+			// 가장 긴 수열의 수 갯수
 			for (int i = 0; i < n; i++) {
+				// 현재수(num[n]) 보다 작은 수들 중에서
 				if (num[i] < num[n]) {
+					// 가장 긴 수열의 수 갯수
 					if (maxboard < board[num[i]])
 						maxboard = board[num[i]];
 				}
 			}
+			// 찾은 수열에 현재수까지 포함한 수 갯수. 10 20 + 30
 			board[num[n]] = maxboard + 1;
+			// 가장 긴 수열인지 확인
 			ans = (board[num[n]] > ans) ? board[num[n]] : ans;
 		}
 
