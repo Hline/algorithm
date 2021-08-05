@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 import java.io.BufferedReader;
 
 class Node {
-	int t;	// 상점
+	int t;	// 마트
 	int p;	// 인구수
 	int l;	// 거리
 
@@ -108,7 +108,7 @@ public class Main {
 		bw.close();
 	}
 
-	// 메인 로드 상점인지 확인
+	// 메인 로드 마트인지 확인
 	private static void checkMainYN(int start, int end) {
 		int next = start;
 
@@ -175,7 +175,7 @@ public class Main {
 		return maxKey;
 	}
 
-	// 각 상점별 거리 계산
+	// 각 마트별 거리 계산
 	private static int[] CalLen(int start) {
 		boolean[] visited = new boolean[N];
 		int[] dist = new int[N];
