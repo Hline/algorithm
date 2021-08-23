@@ -59,8 +59,8 @@ Project List
 	- Stack
         - B21042902_탑 <https://www.acmicpc.net/problem/2493> <http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1082&sca=3020>
     - 세그먼트 트리
-        - B210502_최솟값과최댓값 <https://www.acmicpc.net/problem/2357>
-        - B21050502_최솟값 <https://www.acmicpc.net/problem/10868>
-        - B21050503_구간합구하기 <https://www.acmicpc.net/problem/2042>
+        - B210502_최솟값과최댓값,B2357 <https://www.acmicpc.net/problem/2357>
+        - B21050502_최솟값,B10868 <https://www.acmicpc.net/problem/10868>
+        - B21050503_구간합구하기,B2042 <https://www.acmicpc.net/problem/2042>
 
 - 작성참고: [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601#file-how-to-write-by-markdown-md)
